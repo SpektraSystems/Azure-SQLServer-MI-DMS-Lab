@@ -32,6 +32,13 @@ Migrate SQL Server to Managed Instances
 
 
 # Pre-deployed envrionment  
+To login in to the pre-deployed sophos environment proceed as follows:  
+
+1. From the **ODL details** page copy the username and password.  
+<img src="/images/username and password odl.png"/>    
+
+
+2. Login to Azure by using the provided credentials. To login to azure go to [portal.azure.com](https://portal.azure.com/)  
 
 
 # Create a migration project
