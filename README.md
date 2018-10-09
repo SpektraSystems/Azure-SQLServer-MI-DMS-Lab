@@ -26,6 +26,10 @@ To create a migration project proceed as follows:
 
 <img src="/images/selecting rg.png"/>    
 
-3. In the **Overview** blade, select the **Azure Database Migration Service**.  
+3. In the **Overview** blade of the Resource group, select the **Azure Database Migration Service**.  
 
 <img src="/images/selecting the DMS.png"/>  
+
+4. In the **Overview** blade of the DMS, **click** on the **+New Migration Project**.  
+
+<img src="/images/new migration project.png"/>  
