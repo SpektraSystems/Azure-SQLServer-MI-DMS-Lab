@@ -16,3 +16,6 @@ Migrate SQL Server to Managed Instances
 1. Navigate to the URL provided to sign-up for the lab.  
 
 # Pre-deployed envrionment  
+
+
+# Create a migration project
