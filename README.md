@@ -15,6 +15,22 @@ Migrate SQL Server to Managed Instances
 
 1. Navigate to the URL provided to sign-up for the lab.  
 
+2. Enter the following details:  
+   * **First Name**  
+   * **Last Name**  
+   * **Work email**  
+   * **Organization**  
+   * **Country**  
+   
+   After entering the details click on **SUBMIT**.  
+   
+<img src="/images/AEC registeration.png"/>  
+
+3. After entering the details, **click** on the **LAUNCH LAB** button to proceed further.      
+
+<img src="/images/launch lab button.png"/>  
+
+
 # Pre-deployed envrionment  
 
 
