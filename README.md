@@ -20,5 +20,12 @@ Migrate SQL Server to Managed Instances
 
 # Create a migration project
 To create a migration project proceed as follows:  
-1. Login to azure using the provided credentials.  
-2. 
+1. Login to azure using the provided credentials. 
+
+2. Click on **Resource groups** and select the Resource group as shown below. 
+
+<img src="/images/selecting rg.png"/>    
+
+3. In the **Overview** blade, select the **Azure Database Migration Service**.  
+
+<img src="/images/selecting the DMS.png"/>  
