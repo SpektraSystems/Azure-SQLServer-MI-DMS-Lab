@@ -41,6 +41,11 @@ To login in to the pre-deployed environment proceed as follows:
 2. Login to Azure by using the provided credentials. To login to azure go to [portal.azure.com](https://portal.azure.com/)  
 
 
+# Create a Shared folder in the SQL Server for Backup  
+
+To create a **shared folder** in the SQL Server, proceed as follows:  
+
+
 # Create a Managed Instance  
 To create a managed instance proceed as follows:  
 1. Login to azure using the provided credentials.  
