@@ -48,6 +48,8 @@ To create a managed instance proceed as follows:
 2. Click on **+ Create a resource** and in the search bar type **Azure SQL Managed Instance**.  
 <img src="/images/type mi.png"/>  
 
+3. In the results that appear **select** the **Azure SQL Managed Instance**.  
+<img src="/images/results mi.png"/>  
 
 # Create a migration project
 To create a migration project proceed as follows:  
