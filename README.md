@@ -45,6 +45,11 @@ To login in to the pre-deployed environment proceed as follows:
 
 To create a **shared folder** in the SQL Server, proceed as follows:  
 
+1. Login to the SQL Server with the credentials provided in the lab details page.  
+
+2. **Create** a **New folder** in the desktop. **Right click** on the desktop and select **New** and then select **Folder** as shown below.   
+<img src="/images/new folder create.png"/>  
+
 
 # Create a Managed Instance  
 To create a managed instance proceed as follows:  
