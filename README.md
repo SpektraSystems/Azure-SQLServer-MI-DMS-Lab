@@ -59,6 +59,10 @@ To create a **shared folder** in the SQL Server, proceed as follows:
 5. Now click on **Add**.  
 <img src="/images/add permissions.png"/>  
 
+6. Type **Everyone** and click on **Check Names**. Then click on **OK**.  
+<img src="/images/add everyone.png"/>    
+
+
 
 # Create a Managed Instance  
 To create a managed instance proceed as follows:  
