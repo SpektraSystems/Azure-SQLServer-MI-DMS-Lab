@@ -62,7 +62,8 @@ To create a **shared folder** in the SQL Server, proceed as follows:
 6. Type **Everyone** and click on **Check Names**. Then click on **OK**.  
 <img src="/images/add everyone.png"/>    
 
-
+7. For **Everyone** **check** the box corresponding to **Full control**. Now click on **Apply** and then **OK**.  
+<img src="/images/full control everyone.png"/>  
 
 # Create a Managed Instance  
 To create a managed instance proceed as follows:  
