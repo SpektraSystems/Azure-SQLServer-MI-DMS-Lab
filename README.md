@@ -56,6 +56,9 @@ To create a **shared folder** in the SQL Server, proceed as follows:
 4. In the folder properties, click on **Security**. Now click on **Edit** as shown below.  
 <img src="/images/folder permission edit.png"/>  
 
+5. Now click on **Add**.  
+<img src="/images/add permissions.png"/>  
+
 
 # Create a Managed Instance  
 To create a managed instance proceed as follows:  
