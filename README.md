@@ -85,7 +85,7 @@ To create a managed instance proceed as follows:
     * **Password**: demolabpassword1!  
     * **Resource group**: SQLServer-MI-DMS-Lab  
     * **Location**: East US  
-    * **Virtual network**: vnet-milabdemo/ManagedInstance  
+    * **Virtual network**: vnet-milabdemo/ManagedInstance (Make sure you select the correct subnet. If you use any other subnet, the deployment may take up to 6hrs)    
     
     <img src="/images/managed instance.png"/>  
 
