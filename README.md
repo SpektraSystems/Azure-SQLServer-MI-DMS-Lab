@@ -79,9 +79,15 @@ To create a managed instance proceed as follows:
 <img src="/images/create button mi.png"/>  
 
 5. Enter the following details to proceed.  
-    * Subscription: Choose the subscription.  
-    * Managed instance name:  A unique name to be given to the managed instance.  
-    * Managed instance admin login:
+    * **Subscription**: Choose the subscription.  
+    * **Managed instance name**:  A unique name to be given to the managed instance.  
+    * **Managed instance admin login**: demouser   
+    * **Password**: demolabpassword1!  
+    * **Resource group**: SQLServer-MI-DMS-Lab  
+    * **Location**: East US  
+    * **Virtual network**: vnet-milabdemo/ManagedInstance  
+    
+    <img src="/images/managed instance.png"/>  
 
 
 # Create a migration project
