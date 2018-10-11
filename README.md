@@ -76,7 +76,12 @@ To create a managed instance proceed as follows:
 <img src="/images/results mi.png"/>  
 
 4. **Click** on the **Create** button.  
-<img src="/images/create button mi.png"/>    
+<img src="/images/create button mi.png"/>  
+
+5. Enter the following details to proceed.  
+    * Subscription: Choose the subscription.  
+    * Managed instance name:  A unique name to be given to the managed instance.  
+    * Managed instance admin login:
 
 
 # Create a migration project
