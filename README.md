@@ -89,6 +89,14 @@ To create a managed instance proceed as follows:
     
     <img src="/images/managed instance.png"/>  
 
+6. Now click on **Pricing Tier**. Cofigure the pricing tier as follows:  
+    * Compute Generation: Gen4  
+    * vCores: 8  
+    * Storage: 32  
+    
+    Click on **Apply**.  
+    
+    <img src="/images/vcores for mi.png"/>  
 
 # Create a migration project
 To create a migration project proceed as follows:  
