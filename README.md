@@ -97,6 +97,9 @@ To create a managed instance proceed as follows:
     Click on **Apply**.  
     
     <img src="/images/vcores for mi.png"/>  
+    
+7. After entering and verifying all the details, click on **Create**.  
+<img src="/images/create mi final.png"/>    
 
 # Create a migration project
 To create a migration project proceed as follows:  
