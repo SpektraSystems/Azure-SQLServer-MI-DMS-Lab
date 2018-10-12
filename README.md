@@ -103,6 +103,11 @@ To create a managed instance proceed as follows:
 
 
 # Configure connectivity between virtual networks  
+In order to complete the migration successful, we need to ensure connectivity between the Virtual Network of the Managed Instance and the Virtual Network of the sql server(lab-sql-vm). Proceed as follows to establish vnet peering between the virtual networks.  
+
+1. Navigate to  **Resource groups > SQLServer-MI-DMS-Lab > Overview > lab-vent**.     
+<img src="/images/select lab-vnet image 1.png"/>  
+
 
 # Create a migration project
 To create a migration project proceed as follows:  
