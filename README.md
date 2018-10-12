@@ -126,3 +126,17 @@ To create a migration project proceed as follows:
     After entering details, click on **Create and run activity**    
 
 <img src="/images/create and run migration project.png"/>  
+
+6. Now the **Migration Wizard** window comes up.  
+
+7. Click on **Select source** and enter the following details.  
+    * Source SQL Service instance name: **Enter the DNS name of the lab-sql-vm**  
+    * Authentication type: **Windows Authentication**  
+    * Username: **lab-sql-vm\demouser**  
+    * Password: **demopassword1!**  
+    Make sure both the boxes under **Connection properties** are checked.
+    
+    Click on **Save**  
+    
+    <img src="/images/migration source details.png"/>   
+    
