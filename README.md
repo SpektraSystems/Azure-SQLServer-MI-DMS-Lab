@@ -116,3 +116,13 @@ To create a migration project proceed as follows:
 4. In the **Overview** blade of the DMS, **click** on the **+New Migration Project**.  
 
 <img src="/images/new migration project.png"/>  
+
+5. Enter the following details.  
+    * Project name: **sql-mi-01**  
+    * Source server type: **SQL Server**  
+    * Target server type: **Azure SQL Database Managed Instance**  
+    * Choose type of activity: **Offline data migration**  
+    
+    After entering details, click on **Create and run activity**    
+
+<img src="/images/create and run migration project.png"/>  
