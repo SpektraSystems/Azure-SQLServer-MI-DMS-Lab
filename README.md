@@ -157,3 +157,6 @@ To create a migration project proceed as follows:
     Click on **Save**.  
     
     <img src="/images/select target details.png"/>    
+
+9. Click on **Select databases** and check the box corresponding to **AdventureWorks2016CTP3**. Click on **Save**.  
+<img src="/images/select databases.png"/>  
