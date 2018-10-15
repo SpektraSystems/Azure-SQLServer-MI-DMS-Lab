@@ -164,3 +164,13 @@ To create a migration project proceed as follows:
 10. Click on **Select logins** and check the box near **SOURCE LOGINS**. Click on **Save**.  
 <img src="/images/select logins.png"/>  
 
+11. Click on **Configure migration settings** and enter the following details.  
+    * Choose source backup options: **I will let Azure Database Migration Service create backup files**.  
+    * Network share location that Azure Database Migration Service can take database backups to: **\\192.168.0.4\backup**  
+    * Windows User Azure Database Migration Service impersonates to upload files to Azure Storage: **lab-sql-dm\<username>**  
+    * Password: **enter your password**  
+    * SAS URI for Azure Storage contianer that Azure Database Migration Service will upload the files to: **Enter the SAS URI of the storage account**  
+    
+    Click on **Save**.  
+
+<img src="/images/configure migration settings.png"/>  
