@@ -174,3 +174,12 @@ To create a migration project proceed as follows:
     Click on **Save**.  
 
 <img src="/images/configure migration settings.png"/>  
+
+12. Now enter the following details.  
+    * Activity Name: **migration-activiy**  
+    * Validation option: **Do not validate**  
+    
+    Now click on **Run migration**  
+    
+    <img src="/images/migration summary.png"/>  
+    
