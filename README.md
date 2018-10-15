@@ -147,4 +147,13 @@ To create a migration project proceed as follows:
     Click on **Save**  
     
     <img src="/images/migration source details.png"/>   
+
+8. Click on **Select target** and enter the following details.  
+    * Target server name: **Enter the Host DNS of the Managed Instance**   
+    * Authentication type: **SQL Authentication**  
+    * Username: **demouser**  
+    * Password: **demolabpassword1!**  
     
+    Click on **Save**.  
+    
+    <img src="/images/select target details.png"/>    
