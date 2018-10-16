@@ -4,10 +4,8 @@ Migrate SQL Server to Managed Instances
 <!-- TOC -->
 1. [AEC Registeration experience](#aec-registeration-experience)  
 2. [Pre-deployed envrionment](#pre-deployed-envrionment)  
-3. [](#register-and-activate-sophos-trial)    
-4. [](#verify-iis-website-working)    
-5. [](#remove-public-ip-from-windows-vm)      
-6. [](#configure-web-application-firewall-in-sophos-and-public-the-iis-Website-via-xg)      
+3. [Create a Managed Instance](#create-a-managed-instance)    
+4. [Create a migration project](#create-a-migration-project)          
 
 <!-- /TOC -->
 
