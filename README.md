@@ -110,7 +110,17 @@ In order to complete the migration successful, we need to ensure connectivity be
 <img src="/images/select vnet peerings.png"/>  
 
 3. Click on **Add**.  
-<img src="/images/add vnet peering.png"/>      
+<img src="/images/add vnet peering.png"/>  
+
+4. Enter the following details.  
+    * Name: **lab-vnet-peering-2**  
+    * Peer details: **Resource Manager**  
+    * Subscription: **Choose the subscription**  
+    * Virtual Network: **lab-vnet**  
+    
+    Leave the rest as default and click on **OK**.  
+<img src="/images/peering details.png"/>    
+    
 
 
 # Create a migration project
