@@ -45,19 +45,21 @@ To configure the **shared folder** in the SQL Server, proceed as follows:
 
 1. Login to the SQL Server with the credentials provided in the lab details page.  
 
-2. **Right click** on the folder named **backup** and click on **Properties**.  
+2. Create a new folder on the desktop named **backup**.  
+
+3. **Right click** on the folder named **backup** and click on **Properties**.  
 <img src="/images/right click properties.png"/>  
 
-3. In the folder properties, click on **Security**. Now click on **Edit** as shown below.  
+4. In the folder properties, click on **Security**. Now click on **Edit** as shown below.  
 <img src="/images/folder permission edit.png"/>  
 
-4. Now click on **Add**.  
+5. Now click on **Add**.  
 <img src="/images/add permissions.png"/>  
 
-5. Type **Everyone** and click on **Check Names**. Then click on **OK**.  
+6. Type **Everyone** and click on **Check Names**. Then click on **OK**.  
 <img src="/images/add everyone.png"/>    
 
-6. For **Everyone** **check** the box corresponding to **Full control**. Now click on **Apply** and then **OK**.  
+7. For **Everyone** **check** the box corresponding to **Full control**. Now click on **Apply** and then **OK**.  
 <img src="/images/full control everyone.png"/>  
 
 # Create a Managed Instance  
