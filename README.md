@@ -41,26 +41,23 @@ To login in to the pre-deployed environment proceed as follows:
 
 # Configuring Shared folder in the SQL Server for Backup  
 
-To create a **shared folder** in the SQL Server, proceed as follows:  
+To configure the **shared folder** in the SQL Server, proceed as follows:  
 
 1. Login to the SQL Server with the credentials provided in the lab details page.  
 
-2. **Create** a **New folder** in the desktop. **Right click** on the desktop and select **New** and then select **Folder** as shown below.   
-<img src="/images/new folder create.png"/>  
-
-3. **Right click** on the created folder and click on **Properties**.  
+2. **Right click** on the folder named **backup** and click on **Properties**.  
 <img src="/images/right click properties.png"/>  
 
-4. In the folder properties, click on **Security**. Now click on **Edit** as shown below.  
+3. In the folder properties, click on **Security**. Now click on **Edit** as shown below.  
 <img src="/images/folder permission edit.png"/>  
 
-5. Now click on **Add**.  
+4. Now click on **Add**.  
 <img src="/images/add permissions.png"/>  
 
-6. Type **Everyone** and click on **Check Names**. Then click on **OK**.  
+5. Type **Everyone** and click on **Check Names**. Then click on **OK**.  
 <img src="/images/add everyone.png"/>    
 
-7. For **Everyone** **check** the box corresponding to **Full control**. Now click on **Apply** and then **OK**.  
+6. For **Everyone** **check** the box corresponding to **Full control**. Now click on **Apply** and then **OK**.  
 <img src="/images/full control everyone.png"/>  
 
 # Create a Managed Instance  
