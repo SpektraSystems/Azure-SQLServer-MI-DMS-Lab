@@ -107,7 +107,11 @@ In order to complete the migration successful, we need to ensure connectivity be
 <img src="/images/select vnet-milabdemo.png"/>  
 
 2. Under **Settings**, click on **Peerings**.  
-<img src="/images/select vnet peerings.png.png"/>    
+<img src="/images/select vnet peerings.png"/>  
+
+3. Click on **Add**.  
+<img src="/images/add vnet peering.png"/>      
+
 
 # Create a migration project
 To create a migration project proceed as follows:  
