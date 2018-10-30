@@ -62,6 +62,13 @@ To configure the **shared folder** in the SQL Server, proceed as follows:
 7. For **Everyone** **check** the box corresponding to **Full control**. Now click on **Apply** and then **OK**.  
 <img src="/images/full control everyone.png"/>  
 
+8. To share the folder proceed as follows.  
+
+9. In the folder properties, click on **Sharing**. Now click on **Share** as shown below.  
+<img src="/images/sharing backup folder.png"/>  
+
+10. 
+
 # Create a Managed Instance  
 To create a managed instance proceed as follows:  
 1. Login to azure using the provided credentials.  
