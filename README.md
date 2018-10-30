@@ -67,7 +67,12 @@ To configure the **shared folder** in the SQL Server, proceed as follows:
 9. In the folder properties, click on **Sharing**. Now click on **Share** as shown below.  
 <img src="/images/sharing backup folder.png"/>  
 
-10. 
+10. Click on the **Share** button as shown below.   
+<img src="/images/click on share button.png"/>  
+
+
+
+
 
 # Create a Managed Instance  
 To create a managed instance proceed as follows:  
