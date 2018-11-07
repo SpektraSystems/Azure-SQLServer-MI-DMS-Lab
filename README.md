@@ -41,6 +41,8 @@ To login in to the pre-deployed environment proceed as follows:
 
 # Configuring Shared folder in the SQL Server for Backup  
 
+Duration: 20 mins  
+
 To configure the **shared folder** in the SQL Server, proceed as follows:  
 
 1. Login to the SQL Server with the credentials provided in the lab details page.  
@@ -75,6 +77,9 @@ To configure the **shared folder** in the SQL Server, proceed as follows:
 
 
 # Create a Managed Instance  
+
+Duration: 20 mins     
+
 To create a managed instance proceed as follows:  
 1. Login to azure using the provided credentials.  
 
@@ -112,6 +117,9 @@ To create a managed instance proceed as follows:
 
 
 # Configure connectivity between virtual networks  
+
+Duration: 15 mins  
+
 In order to complete the migration successful, we need to ensure connectivity between the Virtual Network of the Managed Instance and the Virtual Network of the sql server(lab-sql-vm). Proceed as follows to establish vnet peering between the virtual networks.  
 
 1. Navigate to  **Resource groups > SQLServer-MI-DMS-Lab > Overview > vnet-milabdemo**.       
@@ -134,7 +142,10 @@ In order to complete the migration successful, we need to ensure connectivity be
     
 
 
-# Create a migration project
+# Create a migration project  
+
+Duration: 30 mins  
+
 To create a migration project proceed as follows:  
 1. Login to azure using the provided credentials. 
 
