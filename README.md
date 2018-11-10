@@ -38,6 +38,9 @@ To login in to the pre-deployed environment proceed as follows:
 
 2. Login to Azure by using the provided credentials. To login to azure go to [portal.azure.com](https://portal.azure.com/)  
 
+3. The details of the SQL Server VM is also provided in the Lab details page.  
+<img src="/images/sql server details.png"/>      
+
 
 # Configuring Shared folder in the SQL Server for Backup  
 
