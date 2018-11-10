@@ -97,9 +97,9 @@ To create a managed instance proceed as follows:
     * **Managed instance name**:  A unique name to be given to the managed instance.  
     * **Managed instance admin login**: demouser   
     * **Password**: demolabpassword1!  
-    * **Resource group**: SQLServer-MI-DMS-Lab  
+    * **Resource group**: SQLMI-VNET-RG  
     * **Location**: East US  
-    * **Virtual network**: vnet-milabdemo/ManagedInstance (Make sure you select the correct subnet. If you use any other subnet, the deployment may take up to 6hrs)    
+    * **Virtual network**: SQLMI-VNET/SQLMI-SUBNET (Make sure you select the correct subnet. If you use any other subnet, the deployment may take up to 6hrs)    
     
     <img src="/images/managed instance.png"/>  
 
@@ -122,7 +122,7 @@ Duration: 15 mins
 
 In order to complete the migration successful, we need to ensure connectivity between the Virtual Network of the Managed Instance and the Virtual Network of the sql server(lab-sql-vm). Proceed as follows to establish vnet peering between the virtual networks.  
 
-1. Navigate to  **Resource groups > SQLServer-MI-DMS-Lab > Overview > vnet-milabdemo**.       
+1. Navigate to  **Resource groups > SQLMI-VNET-RG > Overview > SQLMI-VNET**.       
 <img src="/images/select vnet-milabdemo.png"/>  
 
 2. Under **Settings**, click on **Peerings**.  
@@ -176,8 +176,8 @@ To create a migration project proceed as follows:
 7. Click on **Select source** and enter the following details.  
     * Source SQL Service instance name: **Enter the DNS name of the lab-sql-vm**  
     * Authentication type: **Windows Authentication**  
-    * Username: **lab-sql-vm\demouser**  
-    * Password: **demopassword1!**  
+    * Username: **lab-sql-vm\cloudlabs**  
+    * Password: **enter the password**  
     Make sure both the boxes under **Connection properties** are checked.
     
     Click on **Save**  
