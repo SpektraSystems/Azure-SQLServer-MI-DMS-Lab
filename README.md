@@ -115,8 +115,7 @@ To create a managed instance proceed as follows:
     
     <img src="/images/vcores for mi.png"/>  
     
-7. After entering and verifying all the details, click on **Create**.  
-<img src="/images/create mi final.png"/>    
+7. After entering and verifying all the details, click on **Create**. The Managed Instance will now start to deploy.    
 
 
 # Configure connectivity between virtual networks  
@@ -179,7 +178,7 @@ To create a migration project proceed as follows:
 7. Click on **Select source** and enter the following details.  
     * Source SQL Service instance name: **Enter the DNS name of the lab-sql-vm**  
     * Authentication type: **Windows Authentication**  
-    * Username: **lab-sql-vm\cloudlabs**  
+    * Username: **lab-sql-vm\cloudlabsdev**  
     * Password: **enter the password**  
     Make sure both the boxes under **Connection properties** are checked.
     
