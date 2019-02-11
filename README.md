@@ -77,47 +77,6 @@ To configure the **shared folder** in the SQL Server, proceed as follows:
 
 
 
-
-
-# Create a Managed Instance  
-
-Duration: 20 mins     
-
-To create a managed instance proceed as follows:  
-1. Login to azure using the provided credentials.  
-
-2. Click on **+ Create a resource** and in the search bar type **Azure SQL Managed Instance**.  
-<img src="/images/type mi.png"/>  
-
-3. In the results that appear **select** the **Azure SQL Managed Instance**.  
-<img src="/images/results mi.png"/>  
-
-4. **Click** on the **Create** button.  
-<img src="/images/create button mi.png"/>  
-
-5. Enter the following details to proceed.  
-    * **Subscription**: Choose the subscription.  
-    * **Managed instance name**:  A unique name to be given to the managed instance.  
-    * **Managed instance admin login**: demouser   
-    * **Password**: demolabpassword1!  
-    * **Resource group**: SQLMI-VNET-RG  
-    * **Location**: East US  
-    * **Virtual network**: SQLMI-VNET/SQLMI-SUBNET (Make sure you select the correct subnet. If you use any other subnet, the deployment may take up to 6hrs)    
-    
-    <img src="/images/managed instance.png"/>  
-
-6. Now click on **Pricing Tier**. Cofigure the pricing tier as follows:  
-    * Compute Generation: Gen4  
-    * vCores: 8  
-    * Storage: 32  
-    
-    Click on **Apply**.  
-    
-    <img src="/images/vcores for mi.png"/>  
-    
-7. After entering and verifying all the details, click on **Create**. The Managed Instance will now start to deploy.    
-
-
 # Create a migration project  
 
 Duration: 30 mins  
