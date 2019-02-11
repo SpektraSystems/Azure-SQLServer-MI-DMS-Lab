@@ -4,8 +4,7 @@ Migrate SQL Server to Managed Instances
 <!-- TOC -->
 1. [AEC Registeration experience](#aec-registeration-experience)  
 2. [Pre-deployed envrionment](#pre-deployed-envrionment)  
-3. [Create a Managed Instance](#create-a-managed-instance)    
-4. [Create a migration project](#create-a-migration-project)          
+3. [Create a migration project](#create-a-migration-project)          
 
 <!-- /TOC -->
 
