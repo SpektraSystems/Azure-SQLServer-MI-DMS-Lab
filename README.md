@@ -74,6 +74,9 @@ To configure the **shared folder** in the SQL Server, proceed as follows:
 10. Click on the **Share** button as shown below.   
 <img src="/images/sharing backup folder to demouser.png"/>  
 
+11. Click on **Done**.  
+<img src="/images/backup_done_1.png"/>    
+
 
 
 # Create a migration project  
