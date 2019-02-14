@@ -112,9 +112,9 @@ To create a migration project proceed as follows:
 
 7. Click on **Select source** and enter the following details.  
     * Source SQL Service instance name: **Enter the DNS name of the lab-sql-vm**  
-    * Authentication type: **Windows Authentication**  
-    * Username: **lab-sql-vm\cloudlabsdev**  
-    * Password: **enter the password**  
+    * Authentication type: **SQL Authentication**  
+    * Username: **dbuser**  
+    * Password: **demolabpassword1!**  
     Make sure both the boxes under **Connection properties** are checked.
     
     Click on **Save**  
