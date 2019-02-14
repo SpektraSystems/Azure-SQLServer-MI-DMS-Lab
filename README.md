@@ -119,7 +119,7 @@ To create a migration project proceed as follows:
     
     Click on **Save**  
     
-    <img src="/images/migration source details.png"/>   
+    <img src="/images/sql authentication source details.png"/>   
 
 8. Click on **Select target** and enter the following details.  
     * Target server name: **Enter the Host DNS of the Managed Instance**   
