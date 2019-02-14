@@ -4,8 +4,7 @@ Migrate SQL Server to Managed Instances
 <!-- TOC -->
 1. [AEC Registeration experience](#aec-registeration-experience)  
 2. [Pre-deployed envrionment](#pre-deployed-envrionment)  
-3. [Create a Managed Instance](#create-a-managed-instance)    
-4. [Create a migration project](#create-a-migration-project)          
+3. [Create a migration project](#create-a-migration-project)          
 
 <!-- /TOC -->
 
@@ -73,75 +72,11 @@ To configure the **shared folder** in the SQL Server, proceed as follows:
 <img src="/images/sharing backup folder.png"/>  
 
 10. Click on the **Share** button as shown below.   
-<img src="/images/click on share button.png"/>  
+<img src="/images/sharing backup folder to demouser.png"/>  
 
+11. Click on **Done**.  
+<img src="/images/backup_done_1.png"/>    
 
-
-
-
-# Create a Managed Instance  
-
-Duration: 20 mins     
-
-To create a managed instance proceed as follows:  
-1. Login to azure using the provided credentials.  
-
-2. Click on **+ Create a resource** and in the search bar type **Azure SQL Managed Instance**.  
-<img src="/images/type mi.png"/>  
-
-3. In the results that appear **select** the **Azure SQL Managed Instance**.  
-<img src="/images/results mi.png"/>  
-
-4. **Click** on the **Create** button.  
-<img src="/images/create button mi.png"/>  
-
-5. Enter the following details to proceed.  
-    * **Subscription**: Choose the subscription.  
-    * **Managed instance name**:  A unique name to be given to the managed instance.  
-    * **Managed instance admin login**: demouser   
-    * **Password**: demolabpassword1!  
-    * **Resource group**: SQLMI-VNET-RG  
-    * **Location**: East US  
-    * **Virtual network**: SQLMI-VNET/SQLMI-SUBNET (Make sure you select the correct subnet. If you use any other subnet, the deployment may take up to 6hrs)    
-    
-    <img src="/images/managed instance.png"/>  
-
-6. Now click on **Pricing Tier**. Cofigure the pricing tier as follows:  
-    * Compute Generation: Gen4  
-    * vCores: 8  
-    * Storage: 32  
-    
-    Click on **Apply**.  
-    
-    <img src="/images/vcores for mi.png"/>  
-    
-7. After entering and verifying all the details, click on **Create**. The Managed Instance will now start to deploy.    
-
-
-# Configure connectivity between virtual networks  
-
-Duration: 15 mins  
-
-In order to complete the migration successful, we need to ensure connectivity between the Virtual Network of the Managed Instance and the Virtual Network of the sql server(lab-sql-vm). Proceed as follows to establish vnet peering between the virtual networks.  
-
-1. Navigate to  **Resource groups > SQLMI-VNET-RG > Overview > SQLMI-VNET**.       
-<img src="/images/select vnet-milabdemo.png"/>  
-
-2. Under **Settings**, click on **Peerings**.  
-<img src="/images/select vnet peerings.png"/>  
-
-3. Click on **Add**.  
-<img src="/images/add vnet peering.png"/>  
-
-4. Enter the following details.  
-    * Name: **lab-vnet-peering-2**  
-    * Peer details: **Resource Manager**  
-    * Subscription: **Choose the subscription**  
-    * Virtual Network: **lab-vnet**  
-    
-    Leave the rest as default and click on **OK**.  
-<img src="/images/peering details.png"/>    
-    
 
 
 # Create a migration project  
@@ -177,14 +112,14 @@ To create a migration project proceed as follows:
 
 7. Click on **Select source** and enter the following details.  
     * Source SQL Service instance name: **Enter the DNS name of the lab-sql-vm**  
-    * Authentication type: **Windows Authentication**  
-    * Username: **lab-sql-vm\cloudlabsdev**  
-    * Password: **enter the password**  
+    * Authentication type: **SQL Authentication**  
+    * Username: **dbuser**  
+    * Password: **demolabpassword1!**  
     Make sure both the boxes under **Connection properties** are checked.
     
     Click on **Save**  
     
-    <img src="/images/migration source details.png"/>   
+    <img src="/images/sql authentication source details.png"/>   
 
 8. Click on **Select target** and enter the following details.  
     * Target server name: **Enter the Host DNS of the Managed Instance**   
@@ -196,11 +131,11 @@ To create a migration project proceed as follows:
     
     <img src="/images/select target details.png"/>    
 
-9. Click on **Select databases** and check the box corresponding to **AdventureWorks2016CTP3**. Click on **Save**.  
-<img src="/images/select databases.png"/>  
+9. Click on **Select databases** and check the box corresponding to **WideWorldImporters**. Click on **Save**.  
+<img src="/images/world_wide_importers.png"/>  
 
 10. Click on **Select logins** and check the box near **SOURCE LOGINS**. Click on **Save**.  
-<img src="/images/select logins.png"/>  
+<img src="/images/selecting logins.png"/>    
 
 11. Click on **Configure migration settings** and enter the following details.  
     * Choose source backup options: **I will let Azure Database Migration Service create backup files**.  
