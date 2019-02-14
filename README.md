@@ -135,7 +135,7 @@ To create a migration project proceed as follows:
 <img src="/images/world_wide_importers.png"/>  
 
 10. Click on **Select logins** and check the box near **SOURCE LOGINS**. Click on **Save**.  
-<img src="/images/select logins.png"/>  
+<img src="/images/selecting logins.png"/>    
 
 11. Click on **Configure migration settings** and enter the following details.  
     * Choose source backup options: **I will let Azure Database Migration Service create backup files**.  
