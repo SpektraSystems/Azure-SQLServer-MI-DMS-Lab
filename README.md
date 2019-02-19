@@ -113,7 +113,7 @@ To create a migration project proceed as follows:
 7. Click on **Select source** and enter the following details.  
     * Source SQL Service instance name: **Enter the DNS name of the lab-sql-vm**  
     * Authentication type: **SQL Authentication**  
-    * Username: **dbuser**  
+    * Username: **dbuser** (dbuser is a pre created user which has all the required permissions to perform the migration)  
     * Password: **demolabpassword1!**  
     Make sure both the boxes under **Connection properties** are checked.
     
