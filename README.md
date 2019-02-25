@@ -167,6 +167,8 @@ To create a migration project proceed as follows:
     Now click on **Run migration**  
     
     <img src="/images/migration summary.png"/>  
+    
+13. After the migration completes, select **Download report** to get a report listing the details associated with the migration process.  
 
 # Exercise 4: Verifying the successful migration of Databases  
 
