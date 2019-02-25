@@ -3,7 +3,7 @@ Migrate SQL Server to Managed Instances
 
 <!-- TOC -->
 1. [Lab Registeration experience](#lab-registeration-experience)  
-2. [Accessing the pre-deployed envrionment](#pre-deployed-envrionment)  
+2. [Accessing the pre-deployed envrionment](#accessing-the-pre-deployed-envrionment)  
 3. [Create a migration project](#create-a-migration-project)          
 
 <!-- /TOC -->
