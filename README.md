@@ -2,13 +2,13 @@
 Migrate SQL Server to Managed Instances
 
 <!-- TOC -->
-1. [AEC Registeration experience](#aec-registeration-experience)  
+1. [Lab Registeration experience](#lab-registeration-experience)  
 2. [Pre-deployed envrionment](#pre-deployed-envrionment)  
 3. [Create a migration project](#create-a-migration-project)          
 
 <!-- /TOC -->
 
-# AEC Registeration Experience  
+# Lab Registeration Experience  
 
 1. Navigate to the URL provided to sign-up for the lab.  
 
