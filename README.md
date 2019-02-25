@@ -3,6 +3,7 @@ Migrating SQL Server to Managed Instances
 
 <!-- TOC -->  
 - SQL Database Managed Instance Lab  
+  - [Overview](#overview)  
   - [Abstract and learning objectives](#abstract-and-learning-objectives)  
   - [Lab Registeration experience](#lab-registeration-experience)  
   - [Execise 1: Accessing the pre-deployed envrionment](#excercise-1-accessing-the-pre-deployed-envrionment)  
