@@ -170,6 +170,9 @@ To create a migration project proceed as follows:
 
 # Exercise 4: Verifying the successful migration of Databases  
 
+To verify whether the migration of the databases were successfull, proceed as follows:  
+
+1. 
 
 
 ## After the hands-on lab
