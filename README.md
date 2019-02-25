@@ -6,7 +6,13 @@ Migrate SQL Server to Managed Instances
 2. [Accessing the pre-deployed envrionment](#accessing-the-pre-deployed-envrionment)  
 3. [Create a migration project](#create-a-migration-project)          
 
-<!-- /TOC -->
+<!-- /TOC -->  
+
+# Abstract and learning objectives  
+
+This hands-on lab is designed to provide exposure to Azure SQL Managed Instance and migration exisitng on premises Databases to SQL Managed Instance.
+
+By the end of the lab, you will be able to migrate a SQL Database from a SQL Server to an Azure SQL Managed Instance using Data Mi.
 
 # Lab Registeration Experience  
 
