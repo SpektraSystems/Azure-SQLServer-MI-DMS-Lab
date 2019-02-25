@@ -185,7 +185,20 @@ To verify whether the migration of the databases were successfull, proceed as fo
 
 2. Click on the **Start** button to open the start menu. Expand **Microsoft SQL Server Tools 17** and open **Microsoft SQL Server Management Studio.**    
 
-<img src="/images/select sql mgmt studio.png"/>
+<img src="/images/select sql mgmt studio.png"/>  
+
+3. When the login page appears, enter the following details:  
+  * Server Type: Database engine    
+  * Server Name: *Enter the ip address of the Managed Instance**  
+  * Authentication: SQL Server Authentication  
+  * Login: demouser  
+  * Password: demolabpassword1!  
+  
+  After entering the details click on **Connect**.  
+
+<img src="/images/connect to sqlmi via ssms.png"/>  
+
+
 
 ## After the hands-on lab
 
