@@ -8,6 +8,9 @@ Migrating SQL Server to Managed Instances
   - [Execise 1: Accessing the pre-deployed envrionment](#excercise-1-accessing-the-pre-deployed-envrionment)  
   - [Exercise 2: Configuring Shared folder in the SQL Server for Backup](#exercise-2-configuring-shared-folder-in-the-sql-server-for-backup)    
   - [Exercise 3: Create a migration project](#exercise-3-create-a-migration-project)          
+  - [Exercise 4: Verifying the successful migration of Databases](exercise-4-verifying-the-successful-migration-of-databases)  
+  - [After the hands-on lab](#after-the-hands-on-lab)  
+    - [Task 1: Delete the resource group](#task-1-delete-the-resource-group)
 
 <!-- /TOC -->  
 
@@ -164,6 +167,10 @@ To create a migration project proceed as follows:
     Now click on **Run migration**  
     
     <img src="/images/migration summary.png"/>  
+
+# Exercise 4: Verifying the successful migration of Databases  
+
+
 
 ## After the hands-on lab
 
