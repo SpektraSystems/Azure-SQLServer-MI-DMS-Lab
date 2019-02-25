@@ -5,7 +5,8 @@ Migrating SQL Server to Managed Instances
 - SQL Database Managed Instance Lab  
   - [Abstract and learning objectives](#abstract-and-learning-objectives)  
   - [Lab Registeration experience](#lab-registeration-experience)  
-  - [Accessing the pre-deployed envrionment](#accessing-the-pre-deployed-envrionment)  
+  - [Execise 1:Accessing the pre-deployed envrionment](#exercise-1-accessing-the-pre-deployed-envrionment)  
+  - [Exercise 2:Configuring Shared folder in the SQL Server for Backup](exercise-2-configuring-shared-folder-in-the-sql-server-for- backup)  
   - [Create a migration project](#create-a-migration-project)          
 
 <!-- /TOC -->  
@@ -49,7 +50,7 @@ To login in to the pre-deployed environment proceed as follows:
 <img src="/images/sql server details.png"/>      
 
 
-# Configuring Shared folder in the SQL Server for Backup  
+# Exercise 2: Configuring Shared folder in the SQL Server for Backup  
 
 Duration: 20 mins  
 
