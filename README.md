@@ -36,7 +36,7 @@ By the end of the lab, you will be able to migrate a SQL Database from a SQL Ser
 <img src="/images/launch lab button.png"/>  
 
 
-# Accessing the pre-deployed envrionment  
+# Excercise 1: Accessing the pre-deployed envrionment  
 To login in to the pre-deployed environment proceed as follows:  
 
 1. From the **ODL details** page copy the username and password.  
