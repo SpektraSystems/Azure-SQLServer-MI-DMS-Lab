@@ -1,14 +1,33 @@
 # Azure-SQLServer-MI-DMS-Lab
-Migrate SQL Server to Managed Instances
+Migrating SQL Server to Managed Instances
 
-<!-- TOC -->
-1. [AEC Registeration experience](#aec-registeration-experience)  
-2. [Pre-deployed envrionment](#pre-deployed-envrionment)  
-3. [Create a migration project](#create-a-migration-project)          
+<!-- TOC -->  
+- SQL Database Managed Instance Lab  
+  - [Overview](#overview)  
+  - [Abstract and learning objectives](#abstract-and-learning-objectives)  
+  - [Lab Registeration experience](#lab-registeration-experience)  
+  - [Execise 1: Accessing the pre-deployed envrionment](#excercise-1-accessing-the-pre-deployed-envrionment)  
+  - [Exercise 2: Configuring Shared folder in the SQL Server for Backup](#exercise-2-configuring-shared-folder-in-the-sql-server-for-backup)    
+  - [Exercise 3: Create a migration project](#exercise-3-create-a-migration-project)          
+  - [Exercise 4: Verifying the successful migration of Databases](exercise-4-verifying-the-successful-migration-of-databases)  
+  - [After the hands-on lab](#after-the-hands-on-lab)  
+    - [Task 1: Delete the resource group](#task-1-delete-the-resource-group)
 
-<!-- /TOC -->
+<!-- /TOC -->  
 
-# AEC Registeration Experience  
+# Overview
+
+Managed instance is a deployment option of Azure SQL Database, providing near 100% compatibility with the latest SQL Server on-premises (Enterprise Edition) Database Engine, providing a native virtual network (VNet) implementation that addresses common security concerns, and a business model favorable for on-premises SQL Server customers. The managed instance deployment model allows existing SQL Server customers to lift and shift their on-premises applications to the cloud with minimal application and database changes. At the same time, the managed instance deployment option preserves all PaaS capabilities (automatic patching and version updates, automated backups, high-availability ), that drastically reduces management overhead and TCO.
+
+
+# Abstract and learning objectives  
+
+This hands-on lab is designed to provide exposure to Azure SQL Managed Instance and migration exisitng on premises Databases to SQL Managed Instance.In this lab, you migrate the WorldWideImporters database from an on-premises instance of SQL Server to an Azure SQL Database managed instance by using the Azure Database Migration Service.
+
+
+By the end of the lab, you will be able to migrate a SQL Database from a SQL Server to an Azure SQL Managed Instance using Data Mi.
+
+# Lab Registeration Experience  
 
 1. Navigate to the URL provided to sign-up for the lab.  
 
@@ -28,7 +47,7 @@ Migrate SQL Server to Managed Instances
 <img src="/images/launch lab button.png"/>  
 
 
-# Pre-deployed envrionment  
+# Excercise 1: Accessing the pre-deployed envrionment  
 To login in to the pre-deployed environment proceed as follows:  
 
 1. From the **ODL details** page copy the username and password.  
@@ -41,7 +60,7 @@ To login in to the pre-deployed environment proceed as follows:
 <img src="/images/sql server details.png"/>      
 
 
-# Configuring Shared folder in the SQL Server for Backup  
+# Exercise 2: Configuring Shared folder in the SQL Server for Backup  
 
 Duration: 20 mins  
 
@@ -79,7 +98,7 @@ To configure the **shared folder** in the SQL Server, proceed as follows:
 
 
 
-# Create a migration project  
+# Exercise 3: Create a migration project  
 
 Duration: 30 mins  
 
@@ -155,6 +174,18 @@ To create a migration project proceed as follows:
     Now click on **Run migration**  
     
     <img src="/images/migration summary.png"/>  
+    
+13. After the migration completes, select **Download report** to get a report listing the details associated with the migration process.  
+
+# Exercise 4: Verifying the successful migration of Databases  
+
+To verify whether the migration of the databases were successfull, proceed as follows:  
+
+1. Navigate to the **lab-jump-vm** and start a RDP session.  
+
+2. Click on the **Start** button to open the start menu. Expand **Microsoft SQL Server Tools 17** and open **Microsoft SQL Server Management Studio.**    
+
+<img src="/images/select sql mgmt studio.png"/>
 
 ## After the hands-on lab
 
