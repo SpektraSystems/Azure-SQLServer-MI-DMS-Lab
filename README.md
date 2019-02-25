@@ -3,7 +3,7 @@ Migrate SQL Server to Managed Instances
 
 <!-- TOC -->
 1. [Lab Registeration experience](#lab-registeration-experience)  
-2. [Pre-deployed envrionment](#pre-deployed-envrionment)  
+2. [Accessing the pre-deployed envrionment](#pre-deployed-envrionment)  
 3. [Create a migration project](#create-a-migration-project)          
 
 <!-- /TOC -->
@@ -28,7 +28,7 @@ Migrate SQL Server to Managed Instances
 <img src="/images/launch lab button.png"/>  
 
 
-# Pre-deployed envrionment  
+# Accessing the pre-deployed envrionment  
 To login in to the pre-deployed environment proceed as follows:  
 
 1. From the **ODL details** page copy the username and password.  
