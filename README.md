@@ -1,5 +1,5 @@
 # Azure-SQLServer-MI-DMS-Lab
-Migrate SQL Server to Managed Instances
+Migrating SQL Server to Managed Instances
 
 <!-- TOC -->  
 - SQL Database Managed Instance Lab  
