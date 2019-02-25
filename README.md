@@ -174,8 +174,11 @@ To create a migration project proceed as follows:
 
 To verify whether the migration of the databases were successfull, proceed as follows:  
 
-1. 
+1. Navigate to the **lab-jump-vm** and start a RDP session.  
 
+2. Click on the **Start** button to open the start menu. Expand **Microsoft SQL Server Tools 17** and open **Microsoft SQL Server Management Studio.**    
+
+<img src="/images/select sql mgmt studio.png"/>
 
 ## After the hands-on lab
 
