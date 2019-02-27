@@ -196,9 +196,11 @@ To verify whether the migration of the databases were successfull, proceed as fo
   
   After entering the details click on **Connect**.  
 
-<img src="/images/connect to sqlmi via ssms.png"/>  
+<img src="/images/connect to sqlmi via ssms.png"/>   
 
+4. On the **Object Explorer**, expand **Databases** and you can see the database that is migrated.  
 
+<img src="/images/world-wide-imp-check.png"/>  
 
 ## After the hands-on lab
 
