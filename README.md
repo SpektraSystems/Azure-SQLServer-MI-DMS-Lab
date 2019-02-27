@@ -25,7 +25,7 @@ Managed instance is a deployment option of Azure SQL Database, providing near 10
 This hands-on lab is designed to provide exposure to Azure SQL Managed Instance and migration exisitng on premises Databases to SQL Managed Instance.In this lab, you migrate the WorldWideImporters database from an on-premises instance of SQL Server to an Azure SQL Database managed instance by using the Azure Database Migration Service.
 
 
-By the end of the lab, you will be able to migrate a SQL Database from a SQL Server to an Azure SQL Managed Instance using Data Mi.
+By the end of the lab, you will be able to migrate a SQL Database from a SQL Server to an Azure SQL Managed Instance using Data Migration Service.
 
 # Lab Registeration Experience  
 
