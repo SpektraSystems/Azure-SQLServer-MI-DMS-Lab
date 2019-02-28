@@ -56,6 +56,9 @@ For a Managed Instance to perfrom desirably over a virtual netwotk, there some p
 
 2. Select the **route table** as shown below.  
 
+<img src="/images/route-table-click.png"/>  
+
+
 3. In the **Overview** section all the entries to route the traffic related to the Managed Instance will be displayed.  
 
 4. After reviewing the Route Table, navigate to the **Network Security Group** as shown below.  
