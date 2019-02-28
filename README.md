@@ -6,10 +6,10 @@ Migrating SQL Server to Managed Instances
   - [Overview](#overview)  
   - [Abstract and learning objectives](#abstract-and-learning-objectives)  
   - [Lab Registeration experience](#lab-registeration-experience)  
-  - [Execise 1: Accessing the pre-deployed envrionment](#excercise-1-accessing-the-pre-deployed-envrionment)  
-  - [Exercise 2: Configuring Shared folder in the SQL Server for Backup](#exercise-2-configuring-shared-folder-in-the-sql-server-for-backup)    
-  - [Exercise 3: Create a migration project](#exercise-3-create-a-migration-project)          
-  - [Exercise 4: Verifying the successful migration of Databases](exercise-4-verifying-the-successful-migration-of-databases)  
+  - [Execise 2: Accessing the pre-deployed envrionment](#excercise-2-accessing-the-pre-deployed-envrionment)  
+  - [Exercise 3: Configuring Shared folder in the SQL Server for Backup](#exercise-3-configuring-shared-folder-in-the-sql-server-for-backup)    
+  - [Exercise 4: Create a migration project](#exercise-4-create-a-migration-project)          
+  - [Exercise 5: Verifying the successful migration of Databases](exercise-5-verifying-the-successful-migration-of-databases)  
   - [After the hands-on lab](#after-the-hands-on-lab)  
     - [Task 1: Delete the resource group](#task-1-delete-the-resource-group)
 
@@ -45,10 +45,13 @@ By the end of the lab, you will be able to migrate a SQL Database from a SQL Ser
 
 3. After entering the details, **click** on the **LAUNCH LAB** button to proceed further.      
 
-<img src="/images/launch lab button.png"/>  
-
+<img src="/images/launch lab button.png"/>   
 
 # Excercise 1: Accessing the pre-deployed envrionment  
+
+
+
+# Excercise 2: Accessing the pre-deployed envrionment  
 To login in to the pre-deployed environment proceed as follows:  
 
 1. From the **ODL details** page copy the username and password.  
@@ -61,7 +64,7 @@ To login in to the pre-deployed environment proceed as follows:
 <img src="/images/sql server details.png"/>      
 
 
-# Exercise 2: Configuring Shared folder in the SQL Server for Backup  
+# Exercise 3: Configuring Shared folder in the SQL Server for Backup  
 
 Duration: 20 mins  
 
@@ -99,7 +102,7 @@ To configure the **shared folder** in the SQL Server, proceed as follows:
 
 
 
-# Exercise 3: Create a migration project  
+# Exercise 4: Create a migration project  
 
 Duration: 30 mins  
 
@@ -178,7 +181,7 @@ To create a migration project proceed as follows:
     
 13. After the migration completes, select **Download report** to get a report listing the details associated with the migration process.  
 
-# Exercise 4: Verifying the successful migration of Databases  
+# Exercise 5: Verifying the successful migration of Databases  
 
 To verify whether the migration of the databases were successfull, proceed as follows:  
 
