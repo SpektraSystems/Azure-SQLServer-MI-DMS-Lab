@@ -17,8 +17,9 @@ Migrating SQL Server to Managed Instances
 
 # Overview
 
-Managed instance is a deployment option of Azure SQL Database, providing near 100% compatibility with the latest SQL Server on-premises (Enterprise Edition) Database Engine, providing a native virtual network (VNet) implementation that addresses common security concerns, and a business model favorable for on-premises SQL Server customers. The managed instance deployment model allows existing SQL Server customers to lift and shift their on-premises applications to the cloud with minimal application and database changes. At the same time, the managed instance deployment option preserves all PaaS capabilities (automatic patching and version updates, automated backups, high-availability ), that drastically reduces management overhead and TCO.
+Managed instance is a deployment option of Azure SQL Database, providing near 100% compatibility with the latest SQL Server on-premises (Enterprise Edition) Database Engine, providing a native virtual network (VNet) implementation that addresses common security concerns, and a business model favorable for on-premises SQL Server customers. The managed instance deployment model allows existing SQL Server customers to lift and shift their on-premises applications to the cloud with minimal application and database changes. At the same time, the managed instance deployment option preserves all PaaS capabilities (automatic patching and version updates, automated backups, high-availability ), that drastically reduces management overhead and TCO.  
 
+<img src="/images/what is sql mi.png"/>  
 
 # Abstract and learning objectives  
 
