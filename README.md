@@ -64,6 +64,8 @@ For a Managed Instance to perfrom desirably over a virtual netwotk, there some p
 
 4. After reviewing the Route Table, navigate to the **Network Security Group** as shown below.  
 
+<img src="/images/select-nsg.png"/>
+
 5. In the **Overview** section, all the created **Inbound security rules** and **Outbound security rules** will be displayed.  
 
 6. After reviewing the Network Security Group, navigate to the **SQL Managed Instance** as shown in the image below.  
