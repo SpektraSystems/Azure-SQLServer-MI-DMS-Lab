@@ -6,7 +6,7 @@ Migrating SQL Server to Managed Instances
   - [Overview](#overview)  
   - [Abstract and learning objectives](#abstract-and-learning-objectives)  
   - [Lab Registeration experience](#lab-registeration-experience)  
-  - [Excercise 1: Exploring SQL Managed Instance](#excercise-1-exploring-sql-managed-instance)
+  - [Excercise 1: Exploring the SQL Managed Instance and the associated resources](#excercise-1-exploring-the-sql-managed-instance-and-the-associated-resources)  
   - [Execise 2: Accessing the pre-deployed envrionment](#excercise-2-accessing-the-pre-deployed-envrionment)  
   - [Exercise 3: Configuring Shared folder in the SQL Server for Backup](#exercise-3-configuring-shared-folder-in-the-sql-server-for-backup)    
   - [Exercise 4: Create a migration project](#exercise-4-create-a-migration-project)          
@@ -48,10 +48,23 @@ By the end of the lab, you will be able to migrate a SQL Database from a SQL Ser
 
 <img src="/images/launch lab button.png"/>   
 
-# Excercise 1: Exploring SQL Managed Instance  
+# Excercise 1: Exploring the SQL Managed Instance and the associated resources    
 
-For a Managed Instance to perfrom desirably over a virtual netwotk, there some preparations to be done such as setting up route tables, setting up the Network Security Group with the required set of rules. The Managed Instance will itself take care of all the necessary actions and preparations that are necessary for its smooth operation.To explore SQL Managed instances and the associated functionalities proceed as follows.  
+For a Managed Instance to perfrom desirably over a virtual netwotk, there some preparations to be done such as setting up route tables, setting up the Network Security Group with the required set of rules. The Managed Instance will itself take care of all the necessary actions and preparations that are necessary for its smooth operation.To explore SQL Managed instances and the associated resources proceed as follows.  
 
+1. Navigate to the **SQLMI-VNET-RG** in which the Managed Instance and the associated resources are deployed.  
+
+2. Select the **route table** as shown below.  
+
+3. In the **Overview** section all the entries to route the traffic related to the Managed Instance will be displayed.  
+
+4. After reviewing the Route Table, navigate to the **Network Security Group** as shown below.  
+
+5. In the **Overview** section, all the created **Inbound security rules** and **Outbound security rules** will be displayed.  
+
+6. After reviewing the Network Security Group, navigate to the **SQL Managed Instance** as shown in the image below.  
+
+7. In the **Overview** section of the SQL Managed Instance, all the information will be displayed. **Copy** the value of the **Host** as shown below. This will be needed in the further exercises.  
 
 
 
