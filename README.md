@@ -6,6 +6,7 @@ Migrating SQL Server to Managed Instances
   - [Overview](#overview)  
   - [Abstract and learning objectives](#abstract-and-learning-objectives)  
   - [Lab Registeration experience](#lab-registeration-experience)  
+  - [Excercise 1: Exploring SQL Managed Instance](#excercise-1-exploring-sql-managed-instance)
   - [Execise 2: Accessing the pre-deployed envrionment](#excercise-2-accessing-the-pre-deployed-envrionment)  
   - [Exercise 3: Configuring Shared folder in the SQL Server for Backup](#exercise-3-configuring-shared-folder-in-the-sql-server-for-backup)    
   - [Exercise 4: Create a migration project](#exercise-4-create-a-migration-project)          
