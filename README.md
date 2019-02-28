@@ -47,7 +47,10 @@ By the end of the lab, you will be able to migrate a SQL Database from a SQL Ser
 
 <img src="/images/launch lab button.png"/>   
 
-# Excercise 1: Accessing the pre-deployed envrionment  
+# Excercise 1: Exploring SQL Managed Instance  
+
+For a Managed Instance to perfrom desirably over a virtual netwotk, there some preparations to be done such as setting up route tables, setting up the Network Security Group with the required set of rules. The Managed Instance will itself take care of all the necessary actions and preparations that are necessary for its smooth operation.To explore SQL Managed instances and the associated functionalities proceed as follows.  
+
 
 
 
