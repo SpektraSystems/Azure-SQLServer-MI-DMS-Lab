@@ -6,10 +6,11 @@ Migrating SQL Server to Managed Instances
   - [Overview](#overview)  
   - [Abstract and learning objectives](#abstract-and-learning-objectives)  
   - [Lab Registeration experience](#lab-registeration-experience)  
-  - [Execise 1: Accessing the pre-deployed envrionment](#excercise-1-accessing-the-pre-deployed-envrionment)  
-  - [Exercise 2: Configuring Shared folder in the SQL Server for Backup](#exercise-2-configuring-shared-folder-in-the-sql-server-for-backup)    
-  - [Exercise 3: Create a migration project](#exercise-3-create-a-migration-project)          
-  - [Exercise 4: Verifying the successful migration of Databases](exercise-4-verifying-the-successful-migration-of-databases)  
+  - [Exercise 1: Exploring the SQL Managed Instance and the associated resources](#excercise-1-exploring-the-sql-managed-instance-and-the-associated-resources)  
+  - [Exercise 2: Accessing the pre-deployed envrionment](#excercise-2-accessing-the-pre-deployed-envrionment)  
+  - [Exercise 3: Configuring Shared folder in the SQL Server for Backup](#exercise-3-configuring-shared-folder-in-the-sql-server-for-backup)    
+  - [Exercise 4: Create a migration project](#exercise-4-create-a-migration-project)          
+  - [Exercise 5: Verifying the successful migration of Databases](exercise-5-verifying-the-successful-migration-of-databases)  
   - [After the hands-on lab](#after-the-hands-on-lab)  
     - [Task 1: Delete the resource group](#task-1-delete-the-resource-group)
 
@@ -17,8 +18,9 @@ Migrating SQL Server to Managed Instances
 
 # Overview
 
-Managed instance is a deployment option of Azure SQL Database, providing near 100% compatibility with the latest SQL Server on-premises (Enterprise Edition) Database Engine, providing a native virtual network (VNet) implementation that addresses common security concerns, and a business model favorable for on-premises SQL Server customers. The managed instance deployment model allows existing SQL Server customers to lift and shift their on-premises applications to the cloud with minimal application and database changes. At the same time, the managed instance deployment option preserves all PaaS capabilities (automatic patching and version updates, automated backups, high-availability ), that drastically reduces management overhead and TCO.
+Managed instance is a deployment option of Azure SQL Database, providing near 100% compatibility with the latest SQL Server on-premises (Enterprise Edition) Database Engine, providing a native virtual network (VNet) implementation that addresses common security concerns, and a business model favorable for on-premises SQL Server customers. The managed instance deployment model allows existing SQL Server customers to lift and shift their on-premises applications to the cloud with minimal application and database changes. At the same time, the managed instance deployment option preserves all PaaS capabilities (automatic patching and version updates, automated backups, high-availability ), that drastically reduces management overhead and TCO.  
 
+<img src="/images/what is sql mi.png"/>  
 
 # Abstract and learning objectives  
 
@@ -44,10 +46,41 @@ By the end of the lab, you will be able to migrate a SQL Database from a SQL Ser
 
 3. After entering the details, **click** on the **LAUNCH LAB** button to proceed further.      
 
-<img src="/images/launch lab button.png"/>  
+<img src="/images/launch lab button.png"/>   
+
+# Excercise 1: Exploring the SQL Managed Instance and the associated resources    
+
+For a Managed Instance to perfrom desirably over a virtual netwotk, there some preparations to be done such as setting up route tables, setting up the Network Security Group with the required set of rules. The Managed Instance will itself take care of all the necessary actions and preparations that are necessary for its smooth operation.To explore SQL Managed instances and the associated resources proceed as follows.  
+
+1. Navigate to the **SQLMI-VNET-RG** in which the Managed Instance and the associated resources are deployed.  
+
+2. Select the **route table** as shown below.  
+
+<img src="/images/route-table-click.png"/>  
+
+3. Click on **Routes** to see all the entries to route the traffic related to the Managed Instance will be displayed.  
+
+<img src="/images/routes-route-table.png"/>  
+
+4. After reviewing the Route Table, navigate to the **Network Security Group** as shown below.  
+
+<img src="/images/select-nsg.png"/>
+
+5. In the **Overview** section under **Settings**, click on **Inbound security rules** view all the inbound security rules created.  
+
+<img src="/images/see-inbound-rules.png"/>  
+
+6. Similarly Navigate to the **Outbound security rules** to view the Outbound security rules.  
+
+<img src="/images/see-outbound-rules.png"/>  
+
+7. After reviewing the Network Security Group, navigate to the **SQL Managed Instance** as shown in the image below.  
+
+8. In the **Overview** section of the SQL Managed Instance, all the information will be displayed. **Copy** the value of the **Host** as shown below. This will be needed in the further exercises.  
 
 
-# Excercise 1: Accessing the pre-deployed envrionment  
+
+# Excercise 2: Accessing the pre-deployed envrionment  
 To login in to the pre-deployed environment proceed as follows:  
 
 1. From the **ODL details** page copy the username and password.  
@@ -60,7 +93,7 @@ To login in to the pre-deployed environment proceed as follows:
 <img src="/images/sql server details.png"/>      
 
 
-# Exercise 2: Configuring Shared folder in the SQL Server for Backup  
+# Exercise 3: Configuring Shared folder in the SQL Server for Backup  
 
 Duration: 20 mins  
 
@@ -98,7 +131,7 @@ To configure the **shared folder** in the SQL Server, proceed as follows:
 
 
 
-# Exercise 3: Create a migration project  
+# Exercise 4: Create a migration project  
 
 Duration: 30 mins  
 
@@ -177,7 +210,7 @@ To create a migration project proceed as follows:
     
 13. After the migration completes, select **Download report** to get a report listing the details associated with the migration process.  
 
-# Exercise 4: Verifying the successful migration of Databases  
+# Exercise 5: Verifying the successful migration of Databases  
 
 To verify whether the migration of the databases were successfull, proceed as follows:  
 
