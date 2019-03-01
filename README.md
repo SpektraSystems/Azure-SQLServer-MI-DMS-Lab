@@ -76,9 +76,11 @@ For a Managed Instance to perfrom desirably over a virtual netwotk, there some p
 
 7. After reviewing the Network Security Group, navigate to the **SQL Managed Instance** as shown in the image below.  
 
+<img src="/images/select-sqlmi.png"/>  
+
 8. In the **Overview** section of the SQL Managed Instance, all the information will be displayed. **Copy** the value of the **Host** as shown below. This will be needed in the further exercises.  
 
-
+<img src="/images/copy sqlmi host.png"/>  
 
 # Excercise 2: Accessing the pre-deployed envrionment  
 To login in to the pre-deployed environment proceed as follows:  
