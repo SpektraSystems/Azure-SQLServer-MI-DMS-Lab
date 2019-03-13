@@ -8,7 +8,7 @@
 
     - [Lab 1: SQL Managed Instance_Intro](https://github.com/SpektraSystems/Azure-SQLServer-MI-DMS-Lab/blob/master/cie-sqlmi-shared/Lab_1_%20SQL%20Managed%20Instance_Intro.pdf)
 
-    - [Lab 2: Migration Using SQL Managed Instance.pdf](https://github.com/SpektraSystems/Azure-SQLServer-MI-DMS-Lab/blob/master/cie-sqlmi-shared/Lab_2_Migration%20Using%20SQL%20Managed%20Instance.pdf)
+    - [Lab 2: Migration Using SQL Managed Instance](https://github.com/SpektraSystems/Azure-SQLServer-MI-DMS-Lab/blob/master/cie-sqlmi-shared/Lab_2_Migration%20Using%20SQL%20Managed%20Instance.pdf)
 
     - [Lab 3: SQL Managed Instance_PowerBI](https://github.com/SpektraSystems/Azure-SQLServer-MI-DMS-Lab/blob/master/cie-sqlmi-shared/Lab_3_%20SQL%20Managed%20Instance_PowerBI.pdf)
 
